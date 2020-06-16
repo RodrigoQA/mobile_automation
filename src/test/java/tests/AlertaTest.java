@@ -1,18 +1,19 @@
 package tests;
 
-import base.BaseTest;
+import core.BaseTest;
+import core.BasePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import org.hamcrest.Matchers;
 import org.junit.Test;
-import pages.AlertaPage;
-import pages.MenuPage;
+import Pages.AlertaPage;
+import Pages.MenuPage;
 
 import static org.junit.Assert.*;
 
 public class AlertaTest extends BaseTest {
     private AndroidDriver<MobileElement> driver;
     AlertaPage alertaPage = new AlertaPage(driver);
+    BasePage basePage = new BasePage(driver);
     MenuPage menuPage = new MenuPage(driver);
 
     @Test
@@ -33,6 +34,15 @@ public class AlertaTest extends BaseTest {
         assertEquals("Confirmado",alertaPage.getMsgConfirmado());
         //clicar em sair
         alertaPage.clickSair();
+
+    }
+    @Test
+    public void testeDeveClicarForaDoAlerta() throws InterruptedException {
+        alertaPage = menuPage.acessarAlerta();
+        alertaPage.clicarAlertaSimples();
+        Thread.sleep(2000);
+        basePage.tap(100,150);
+       assertEquals(alertaPage.isMenuAlerta(),"ALERTA SIMPLES");
 
     }
 }

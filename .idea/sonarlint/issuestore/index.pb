@@ -5,9 +5,23 @@ Q
 !src/test/java/pages/MenuPage.java,b\7\b7d0b575b8c0ec834684b021db30edb6c660585e
 W
 'src/test/java/pages/FormularioPage.java,1\e\1e8d7c2724a7c96af0b5c2ba3e2e4131261c24c3
-P
- src/test/java/base/BaseTest.java,b\7\b7db9501819294794071ed8490857b8ada13054d
 O
 src/test/java/core/Conexao.java,1\4\14fa17d06f04a693c0c12f08104acf6c2ea7b157
 W
 'src/test/java/tests/FormularioTest.java,b\7\b7b7ab0499fdef42c5cb9e11a387852576ba91d9
+S
+#src/test/java/pages/SplashPage.java,2\8\2870d0a2f76b43c41d8b0b28afeed1c1e7cf1252
+S
+#src/test/java/pages/AlertaPage.java,5\e\5e42234b77fabe59aee11691dc23a7336ac31387
+S
+#src/test/java/tests/SplashTest.java,f\9\f9fde92ec177e3e855c11136cb45a0436c993fcf
+S
+#src/test/java/tests/AlertaTest.java,e\e\ee6824929ae22d1cae93f15211583478aeb60f2c
+W
+'src/test/java/Pages/FormularioPage.java,8\7\872c969c37aa63c2217f7019f7263e1d0de97b60
+S
+#src/test/java/Pages/SplashPage.java,7\a\7a4533e6945d662bc7ab9ef5c14852655f0fa42e
+Q
+!src/test/java/Pages/MenuPage.java,8\b\8b1339780789fbec8f4a71ac9ade56ccfda25d94
+S
+#src/test/java/Pages/AlertaPage.java,a\d\ad7008c0b679717fcd65fdb4cc7129a4f82d219f

@@ -1,23 +1,19 @@
 package tests;
 
-import base.BaseTest;
+import core.BaseTest;
+import core.BasePage;
 import core.Conexao;
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import org.hamcrest.Matchers;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.FormularioPage;
-import pages.MenuPage;
-import pages.SplashPage;
+import Pages.FormularioPage;
+import Pages.MenuPage;
+import Pages.SplashPage;
 
 import java.net.MalformedURLException;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.Matchers.*;
@@ -28,6 +24,7 @@ public class FormularioTest extends BaseTest {
     MenuPage menuPage = new MenuPage(driver);
     FormularioPage formularioPage = new FormularioPage(driver);
     SplashPage splashPage = new SplashPage(driver);
+    BasePage basePage = new BasePage(driver);
 
 
 
@@ -98,8 +95,6 @@ public class FormularioTest extends BaseTest {
         assertEquals("Switch: Off",formularioPage.obterSwitchSalvo());
 
 
-
-
     }
     @Test
     public void testRealizarCadastroDemorado() throws InterruptedException {
@@ -116,6 +111,28 @@ public class FormularioTest extends BaseTest {
 
         assertThat("Nome: rodrigo lima", is(formularioPage.obterNomeSalvo()));
 
+
+    }
+    @Test
+    public void testAlterarData(){
+        menuPage.acessarFormulario();
+        basePage.clickTexto("01/01/2000");
+        basePage.clickTexto("20");
+        basePage.clickTexto("OK");
+
+    }
+    @Test
+    public void testeDeveInteragirComSeekBar(){
+        menuPage.acessarFormulario();
+        formularioPage.clickSeekBarPresisao(0.05);
+        formularioPage.salvar();
+    }
+    @Test
+    public void testeDeveRolarTelaBaixo(){
+        basePage.scroll(0.9, 0.1);
+        menuPage.clickTexto("Opção bem escondida");
+        assertEquals("Você achou essa opção", menuPage.getMensagemAlerta());
+        menuPage.clickTexto("OK");
 
     }
 }

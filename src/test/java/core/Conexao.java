@@ -21,11 +21,12 @@ public class Conexao {
     }
 
     public static void createDriver(){
-
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("deviceName", "emulator-5554");
+        desiredCapabilities.setCapability("deviceName", "RX8M9095P7F");
         desiredCapabilities.setCapability("automationName", "uiautomator2");
+      //  desiredCapabilities.setCapability("appActivity", "com.android.packageinstaller.permission.ui.GrantPermissionsActivity");
+        desiredCapabilities.setCapability("autoGrantPermissions",true);
         desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:\\devOps\\Cursos\\automacao\\appium\\src\\main\\resources\\CTAppium.apk");
         System.out.println("Conectando Mobile...");
         try {

@@ -1,4 +1,4 @@
-package pages;
+package Pages;
 
 import core.Conexao;
 import io.appium.java_client.MobileElement;

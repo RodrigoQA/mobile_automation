@@ -1,5 +1,6 @@
-package pages;
+package Pages;
 
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
@@ -10,6 +11,7 @@ public class AlertaPage {
     private AndroidDriver<MobileElement> driver;
 
     private By alertaConfirm = By.xpath("//*[@text='ALERTA CONFIRM']");
+    private By alertaSimples = By.xpath("//*[@text='ALERTA SIMPLES']");
     private By inf = By.id("android:id/alertTitle");
     private By inf2 = By.id("android:id/alertTitle");
     private By mensagem = By.id("android:id/message");
@@ -17,6 +19,7 @@ public class AlertaPage {
     private By btnConfirmar = By.id("android:id/button2");
     private By btnNegar = By.id("android:id/button1");
     private By sair = By.id("android:id/button1");
+    private By msgForaDaCaixa = By.id("android:id/message");
 
 
     public AlertaPage(AndroidDriver<MobileElement> driver) {
@@ -26,6 +29,10 @@ public class AlertaPage {
 
     public void clicarAlertConfirm(){
         getDriver().findElement(alertaConfirm).click();
+
+    }
+    public void clicarAlertaSimples(){
+        getDriver().findElement(alertaSimples).click();
 
     }
     public String getInfo(){
@@ -56,4 +63,9 @@ public class AlertaPage {
     public String getMsgConfirmado(){
         return getDriver().findElement(mensagem2).getText();
     }
+    public String isMenuAlerta(){
+        String text = getDriver().findElement(alertaSimples).getText();
+        return text;
+    }
+
 }

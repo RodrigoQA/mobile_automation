@@ -1,11 +1,11 @@
 package tests;
 
-import base.BaseTest;
+import core.BaseTest;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Test;
-import pages.MenuPage;
-import pages.SplashPage;
+import Pages.MenuPage;
+import Pages.SplashPage;
 
 import static org.junit.Assert.assertEquals;
 

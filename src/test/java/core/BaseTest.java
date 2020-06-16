@@ -1,4 +1,4 @@
-package base;
+package core;
 
 import core.Conexao;
 import io.appium.java_client.MobileElement;

@@ -1,5 +1,6 @@
-package pages;
+package Pages;
 
+import core.BasePage;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -7,8 +8,10 @@ import org.openqa.selenium.By;
 
 import static core.Conexao.*;
 
-public class FormularioPage {
+public class FormularioPage extends BasePage {
+
     private AndroidDriver<MobileElement> driver;
+    BasePage base = new BasePage(driver);
 
     private By formul = new MobileBy.ByAccessibilityId("nome");
     private By console = new MobileBy.ByAccessibilityId("console");
@@ -21,9 +24,9 @@ public class FormularioPage {
     private By switchSalvo = By.xpath("//android.widget.TextView[starts-with(@text,   'Switch:')]");
 
     public FormularioPage(AndroidDriver<MobileElement> driver) {
-
-        this.driver = driver;
+        super(driver);
     }
+
 
     public void setNome(String text) {
         getDriver().findElement(formul).sendKeys(text);
@@ -67,7 +70,7 @@ public class FormularioPage {
         getDriver().findElement(clickSalvarDemorado).click();
     }
     public String obterNomeSalvo(){
-       return getDriver().findElement(nomeSalvo).getText();
+        return getDriver().findElement(nomeSalvo).getText();
     }
     public String obterProdutoSalvo(){
         return getDriver().findElement(produtoSalvo).getText();
@@ -75,8 +78,23 @@ public class FormularioPage {
     public String obterSwitchSalvo(){
         return getDriver().findElement(switchSalvo).getText();
     }
-    public void esperar(long tempo) throws InterruptedException {
-        Thread.sleep(tempo);
+
+    public void clickSeekBar(Double posicao){
+        MobileElement seek = getDriver().findElement(MobileBy.AccessibilityId("slid"));
+        int y = seek.getLocation().y + (seek.getSize().height/2);
+        int x = (int) (seek.getLocation().x + (seek.getSize().width * posicao));
+        base.tap(x,y);
+
+    }
+    public void clickSeekBarPresisao(Double posicao){
+        int delta = 50;
+        MobileElement seek = getDriver().findElement(MobileBy.AccessibilityId("slid"));
+        int y = seek.getLocation().y + (seek.getSize().height/2);
+        int xInicial = (int) (seek.getLocation().x +delta);
+        int x = (int) (xInicial +((seek.getSize().width -2 * delta)* posicao));
+        base.tap(x,y);
+
+
     }
 
 }
