@@ -2,41 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2832409-08bc-4d4f-9c7e-cc7395c2ce5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CliquesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SwipePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/core/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CliquesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SwipeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8d7c2724a7c96af0b5c2ba3e2e4131261c24c3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8d7c2724a7c96af0b5c2ba3e2e4131261c24c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CTAppium_1_2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ApplicationRealPages/ContaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ApplicationRealPages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ApplicationRealPages/MovimentacoesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ApplicationRealPages/ResumoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ApplicationRealPages/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DragDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SwipeListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/WebViewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/AppNativoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/ContasTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/HomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/MovimentacoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/ResumoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DragDropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SwipeListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WebViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872c969c37aa63c2217f7019f7263e1d0de97b60" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872c969c37aa63c2217f7019f7263e1d0de97b60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b1339780789fbec8f4a71ac9ade56ccfda25d94" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b1339780789fbec8f4a71ac9ade56ccfda25d94" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7b7ab0499fdef42c5cb9e11a387852576ba91d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7b7ab0499fdef42c5cb9e11a387852576ba91d9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d0b575b8c0ec834684b021db30edb6c660585e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d0b575b8c0ec834684b021db30edb6c660585e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7db9501819294794071ed8490857b8ada13054d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CTAppium.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/original.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SwipePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SwipePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/Conexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AlertaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AlertaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormularioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/FormularioPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SplashPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SplashPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AlertaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AlertaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/FormularioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FormularioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SplashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SplashTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshot/deveAguardarMenuSplashSumir.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/deveAguardarMenuSplashSumir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshot/deveConfirmarAlertas.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/deveConfirmarAlertas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SwipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SwipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CTAppium.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testAlterarData.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testAlterarData.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/screenshot/testDeveInstalarAPK_MobileFisico.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testDeveInstalarAPK_MobileFisico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testDeveInteragiCombo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testDeveInteragiCombo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testDeveInteragir_Switch_CheckBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testDeveInteragir_Switch_CheckBox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testDevePreencherCampoNome.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testDevePreencherCampoNome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testRealizarCadastroComSucesso.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testRealizarCadastroComSucesso.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/screenshot/testRealizarCadastroDemorado.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testRealizarCadastroDemorado.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testeDeveInteragirComSeekBar.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testeDeveInteragirComSeekBar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testeDeveInteragirSwipe.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testeDeveInteragirSwipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testeDeveRealizarCliqueLongo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testeDeveRealizarCliqueLongo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/testeDeveRolarTelaBaixo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshot/testeDeveRolarTelaBaixo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/core/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/core/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/core/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/core/Conexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/core/Conexao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AlertaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AlertaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FormularioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/FormularioPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/MenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SplashPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SplashPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AlertaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AlertaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CalculadoraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/CalculadoraTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SwipePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SwipePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FormularioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FormularioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SplashTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SplashTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SwipeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SwipeTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +77,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1dBDfzZR50xXZTLdQooqKfdCumo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../iterasys/modolo_web" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -93,82 +111,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SwipeTest.testeDeveInteragirSwipe">
-    <configuration name="CliquesTest.testeDeveRealizarCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppNativoTest.deveAtualizarSaldoAoExcluirMovimentacao">
+    <configuration name="AppNativoTest.deveAtualizarSaldoAoExcluirMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.ApplicationRealTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CliquesTest" />
-      <option name="METHOD_NAME" value="testeDeveRealizarCliqueDuplo" />
+      <option name="PACKAGE_NAME" value="tests.ApplicationRealTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplicationRealTests.AppNativoTest" />
+      <option name="METHOD_NAME" value="deveAtualizarSaldoAoExcluirMovimentacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CliquesTest.testeDeveRealizarCliqueLongo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNativoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.ApplicationRealTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CliquesTest" />
-      <option name="METHOD_NAME" value="testeDeveRealizarCliqueLongo" />
+      <option name="PACKAGE_NAME" value="tests.ApplicationRealTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplicationRealTests.AppNativoTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormularioTest.testeDeveInteragirComSeekBar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNativoTest.testExcluirConta_sucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.ApplicationRealTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FormularioTest" />
-      <option name="METHOD_NAME" value="testeDeveInteragirComSeekBar" />
+      <option name="PACKAGE_NAME" value="tests.ApplicationRealTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplicationRealTests.AppNativoTest" />
+      <option name="METHOD_NAME" value="testExcluirConta_sucesso" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormularioTest.testeDeveRolarTelaBaixo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNativoTest.testValidarinclusaoMov" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.ApplicationRealTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FormularioTest" />
-      <option name="METHOD_NAME" value="testeDeveRolarTelaBaixo" />
+      <option name="PACKAGE_NAME" value="tests.ApplicationRealTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplicationRealTests.AppNativoTest" />
+      <option name="METHOD_NAME" value="testValidarinclusaoMov" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwipeTest.testeDeveInteragirSwipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppNativoTest.testinserirConta_sucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.ApplicationRealTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SwipeTest" />
-      <option name="METHOD_NAME" value="testeDeveInteragirSwipe" />
+      <option name="PACKAGE_NAME" value="tests.ApplicationRealTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ApplicationRealTests.AppNativoTest" />
+      <option name="METHOD_NAME" value="testinserirConta_sucesso" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SwipeTest.testeDeveInteragirSwipe" />
-        <item itemvalue="JUnit.FormularioTest.testeDeveRolarTelaBaixo" />
-        <item itemvalue="JUnit.CliquesTest.testeDeveRealizarCliqueDuplo" />
-        <item itemvalue="JUnit.CliquesTest.testeDeveRealizarCliqueLongo" />
-        <item itemvalue="JUnit.FormularioTest.testeDeveInteragirComSeekBar" />
+        <item itemvalue="JUnit.AppNativoTest.deveAtualizarSaldoAoExcluirMovimentacao" />
+        <item itemvalue="JUnit.AppNativoTest.testValidarinclusaoMov" />
+        <item itemvalue="JUnit.AppNativoTest.testExcluirConta_sucesso" />
+        <item itemvalue="JUnit.AppNativoTest.testinserirConta_sucesso" />
+        <item itemvalue="JUnit.AppNativoTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +228,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -218,6 +239,11 @@
           <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ApplicationRealTests/AppNativoTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/SwipeTest.java</url>
           <line>18</line>
@@ -225,6 +251,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/WebViewTest.java</url>
+          <line>21</line>
+          <properties class="tests.WebViewTest" method="testeDeveFazerLogin">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

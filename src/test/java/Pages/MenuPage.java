@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import tests.DragDropTest;
 
 import static core.Conexao.getDriver;
 
@@ -16,6 +17,11 @@ public class MenuPage extends BasePage {
     private By alerta = By.xpath("//android.widget.TextView[@text='Alertas']");
     private By cliques = By.xpath("//android.widget.TextView[@text='Cliques']");
     private By swipe = By.xpath("//android.widget.TextView[@text='Swipe']");
+    private By swipeList = By.xpath("//android.widget.TextView[@text='Swipe List']");
+    private By dragDrop = By.xpath("//android.widget.TextView[@text='Drag and drop']");
+    private By Hibrido = By.xpath("//android.widget.TextView[@text='SeuBarriga Híbrido']");
+    private By Nativo = By.xpath("//android.widget.TextView[@text='SeuBarriga Nativo']");
+
 
     public MenuPage(AndroidDriver<MobileElement> driver) {
         super(driver);
@@ -51,6 +57,24 @@ public class MenuPage extends BasePage {
     public boolean isMenuInicial(){
         String menu = getDriver().findElement(formulario).getText();
         return Boolean.parseBoolean(menu);
+    }
+    public SwipeListPage acessarSwipeList() {
+        scrollDown();
+        getDriver().findElement(swipeList).click();
+        return new SwipeListPage(driver);
+    }
+    public DragDropPage acessarDragDrop() {
+        scrollDown();
+        getDriver().findElement(dragDrop).click();
+        return new DragDropPage(driver);
+    }
+    public void acessarSeuBarrigaHibrido() {
+        getDriver().findElement(Hibrido).click();
+
+    }
+    public void acessarAppNativo() {
+        getDriver().findElement(Nativo).click();
+
     }
 
 

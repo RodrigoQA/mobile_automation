@@ -17,12 +17,22 @@ public class SwipeTest extends BaseTest {
 
     @Test
     public void testeDeveInteragirSwipe() throws InterruptedException {
-        basePage.scroll(0.9,0.1);
+        // rolar para baixo
+        basePage.scrollDown();
         menuPage.acessarSwipe();
         basePage.waitExplicity("a esquerda");
-        basePage.swipe(0.9,0.1);
-        System.out.println(swipePage.getMensagem());
-        Assert.assertEquals("E veja se", swipePage.getMensagem());
+        //swipe passar para tela direita
+        basePage.swipeRigth();
+        Assert.assertEquals("E veja se", swipePage.mensagemVejaSe());
+        basePage.clickTexto("›");
+        Assert.assertEquals("Chegar até o fim!", swipePage.mesagemChegouAoFim());
+        basePage.clickTexto("‹");
+        Assert.assertEquals("E veja se", swipePage.mensagemVejaSe());
+        //swipe passar para tela esquerda
+        basePage.swipeLeft();
+
+
+
 
 
 

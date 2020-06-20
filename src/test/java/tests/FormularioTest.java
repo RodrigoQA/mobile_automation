@@ -34,6 +34,7 @@ public class FormularioTest extends BaseTest {
         //selecionar formularios
         formularioPage = menuPage.acessarFormulario();
 
+
     }
     @Test
     public void testDevePreencherCampoNome() throws MalformedURLException {

@@ -23,7 +23,7 @@ public class BaseTest {
 
 
     @Before
-    public void inicializaAppium()throws MalformedURLException {
+    public void inicializaAppium() {
         driver = Conexao.getDriver();
     }
 
@@ -34,7 +34,7 @@ public class BaseTest {
     @After
     public void tearDown() {
         gerarScreenShot();
-       // Conexao.getDriver().resetApp();
+        Conexao.getDriver().resetApp();
     }
     public void gerarScreenShot(){
         try {

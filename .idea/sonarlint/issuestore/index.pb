@@ -25,3 +25,25 @@ Q
 !src/test/java/Pages/MenuPage.java,8\b\8b1339780789fbec8f4a71ac9ade56ccfda25d94
 S
 #src/test/java/Pages/AlertaPage.java,a\d\ad7008c0b679717fcd65fdb4cc7129a4f82d219f
+P
+ src/test/java/core/BaseTest.java,9\0\907e821266cf16dd0a7c6cd2bf9c3f2844bd4eaf
+T
+$src/test/java/Pages/CliquesPage.java,d\b\db71adfde72d53eb61ab7ea514b598366df618e6
+T
+$src/test/java/tests/CliquesTest.java,e\f\eff4143523ea0ad32b208beb8c8382df29c5f74f
+R
+"src/test/java/tests/SwipeTest.java,c\1\c1f01aff9a13f15c75175e33b8684a94d59781fc
+R
+"src/test/java/Pages/SwipePage.java,a\9\a9221fb0e52c969b0b81af1a96cbaf5b2ec4bc8f
+P
+ src/test/java/core/BasePage.java,1\b\1b844ed60c1b19bf1607242de53c977b64df2bc0
+V
+&src/test/java/Pages/SwipeListPage.java,5\0\5036e44215bcf23c699b76c78246c8623b588152
+V
+&src/test/java/tests/SwipeListTest.java,e\2\e2eee6358389d06c3457df2d73456cc03619bf13
+U
+%src/test/java/tests/DragDropTest.java,7\2\72706a0f941db0aeb53d427463f895c64ad98a68
+X
+(src/test/java/tests/CalculadoraTest.java,5\e\5ec869c45f41f19eeb647bde91cc92883bad1ded
+O
+src/test/java/core/Connect.java,c\6\c64906d2874682344f9d12edd0c6b9018cea397f
